@@ -1,7 +1,5 @@
 # Static Node.js and Express Site
 
-# Interactive-PhotoGallery
-
 ## Project Description
 
 ## Tools Used:
