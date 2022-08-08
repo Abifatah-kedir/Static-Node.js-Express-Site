@@ -8,10 +8,13 @@
 
 * HTML
 * CSS 
-* JavaScript,JQuery
+* JavaScript
+* Node.js
+* Express
+* Pug templates
 
 ## Project Features:
-> Used HTML, CSS and the popular programming language JavaScript and JQuery to create an interactive, searchable gallery of photose.
+> Used HTML, CSS, Node.js and Express and the popular programming language JavaScript to create a portfolio site to show off the projects I have built so far.
 
 > View life Live Site https://abifatah-kedir.github.io/Interactive-PhotoGallery/?#
 
