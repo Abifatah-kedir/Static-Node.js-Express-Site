@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "id":0,
+            "project_name": "Public-API-Request",
+            "description": "Gets 12 random people with their contact information from the Rand User API and displays them in cards on the page",
+            "technologies" :["HTML", "CSS", "JavaScript", "Fetch API"],
+            "live_link": "https://abifatah-kedir.github.io/Public-API-Request/?#",
+            "github_link": "https://github.com/Abifatah-kedir/Public-API-Request",
+            "image_urls": ["/static/images/API1.png","/static/images/API2.png","/static/images/API3.png"]
+        },
+        {
+            "id":1,
+            "project_name":"OOP-Game-App",
+            "description":"OOP based project that challenges a random hidden phrase with a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["HTML", "CSS", "JavaScript(OOP)"],
+            "live_link": "https://abifatah-kedir.github.io/OOP-Game-App/?#",
+            "github_link":"https://github.com/Abifatah-kedir/OOP-Game-App",
+            "image_urls":  ["/static/images/PhraseHunter1.png","/static/images/PhraseHunter2.png","/static/images/PhraseHunter3.png"]
+        },
+        {
+            "id":2,
+            "project_name":"Interactive-PhotoGallery",
+            "description":"An interactive, searchable gallery of photose.",
+            "technologies":["HTML", "CSS", "JavaScript", "JQUERY"],
+            "live_link":"https://abifatah-kedir.github.io/Interactive-PhotoGallery/?#",
+            "github_link":"https://github.com/Abifatah-kedir/Interactive-PhotoGallery",
+            "image_urls": ["/static/images/photoG1.png","/static/images/photoG2.png","/static/images/photoG3.png"]
+        }
+    ]
+}
