@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+  
+  h1= ` ${err.status}- Page not found!` 
+  h2.error-p= `${err.message}`
+  if err
+    div.not-found-stack
+      hr
+      p=`This is the error stack: ${err.stack}`
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

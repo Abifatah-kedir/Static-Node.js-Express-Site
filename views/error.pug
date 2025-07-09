@@ -1,0 +1,18 @@
+extends layout.pug
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  h1= `Server Error`
+  h2= `Error status code: ${err.status} - Server Error`
+  p.error-p= `${err.message}`
+
+  div.not-found-stack
+    hr
+    pre #{err.stack}
+
+
+

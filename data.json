@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript(OOP)"],
             "live_link": "https://abifatah-kedir.github.io/OOP-Game-App/?#",
             "github_link":"https://github.com/Abifatah-kedir/OOP-Game-App",
-            "image_urls":  ["/static/images/PhraseHunter1.png","/static/images/PhraseHunter2.png","/static/images/PhraseHunter3.png"]
+            "image_urls":  ["/static/images/PhraseHunter1.png","/static/images/PhraseHunter2.png","/static/images/PhraseHunter3.png","/static/images/PhraseHunter4.png"]
         },
         {
             "id":2,
@@ -26,6 +26,16 @@
             "live_link":"https://abifatah-kedir.github.io/Interactive-PhotoGallery/?#",
             "github_link":"https://github.com/Abifatah-kedir/Interactive-PhotoGallery",
             "image_urls": ["/static/images/photoG1.png","/static/images/photoG2.png","/static/images/photoG3.png"]
+        },
+
+         {
+            "id":3,
+            "project_name":"Random Quotes",
+            "description":"Practiced basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies":["HTML", "CSS", "JavaScript", "JQUERY"],
+            "live_link":"https://abifatah-kedir.github.io/A-Random-Quote-Generator/?#",
+            "github_link":"https://github.com/Abifatah-kedir/A-Random-Quote-Generator",
+            "image_urls": ["/static/images/RandomQuoteGenerator1.png","/static/images/RandomQuoteGenerator2.png","/static/images/RandomQuoteGenerator3.png","/static/images/RandomQuoteGenerator4.png"]
         }
     ]
 }
