@@ -9,7 +9,7 @@ block content
     h1.lead.text-light
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Hi <br> In this project, I architected and deployed a fully-featured Node.js application that transforms a single JSON data source into a polished, multi-page website using Express routing and Pug templates.
 
 
   article.portfolio-project-thumbs
@@ -26,5 +26,5 @@ block content
         .cell
           a(href=`./project/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}` width='5500' height='300')
-            h5= project.project_name
+          h5= project.project_name
 

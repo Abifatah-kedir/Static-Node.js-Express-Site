@@ -29,7 +29,7 @@ body {
 
 article {
   background: #fefefe;
-}
+} 
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -64,6 +64,7 @@ a {
   height: 100%;
   min-height: 100%;
   background: #fefefe;
+   /* border: 1px green solid; */
 }
 
 .flex-row-wrap {
@@ -276,9 +277,18 @@ nav a span {
   padding-top: 40px;
 }
 
+.skills-contact-box {
+  border: 1px solid red;
+}
 .skills-contact-box ul {
   margin-bottom: 35px;
 }
+
+
+#skills-list li {
+  font-size: 1.5em;
+}
+
 
 .project-img {
   width: 100%;
@@ -362,3 +372,39 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+
+
+
+.cell h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+
+/* shared variables for theming */
+:root {
+  --shadow: 0 4px 8px rgba(0, 0, 0, .12);   
+  --shadow-hover: 0 6px 12px rgba(0, 0, 0, .18);
+}
+
+.cell {
+  padding: 1rem;       
+  background: #d5d6d3;    
+  border-radius: 8px;  
+  box-shadow: var(--shadow);
+  transition: box-shadow .25s ease;
+}
+
+.cell:hover { box-shadow: var(--shadow-hover); }
+
+
+.cell img.thumbnail {
+  display: block;      
+  border-radius: 8px;   
+  box-shadow: var(--shadow);
+  transition: box-shadow .25s ease;
+}
+
+.cell img.thumbnail:hover { box-shadow: var(--shadow-hover); }

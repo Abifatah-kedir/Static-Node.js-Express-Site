@@ -1,0 +1,26 @@
+{
+  "name": "static-node.js-express-site",
+  "version": "1.0.0",
+  "description": "* HTML\r * CSS \r * JavaScript\r * Node.js\r * Express\r * Pug templates",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abifatah-kedir/Static-Node.js-Express-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abifatah-kedir/Static-Node.js-Express-Site/issues"
+  },
+  "homepage": "https://github.com/Abifatah-kedir/Static-Node.js-Express-Site#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3"
+  }
+}
